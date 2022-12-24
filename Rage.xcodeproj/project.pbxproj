@@ -7,22 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F607FE96278DEC210086208C /* SettingsSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = F607FE95278DEC210086208C /* SettingsSheet.swift */; };
+		F635C74F278C6D7C000EA457 /* GameSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = F635C74E278C6D7C000EA457 /* GameSummary.swift */; };
+		F66BE6E227A602A000224B70 /* TipJar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66BE6E127A602A000224B70 /* TipJar.swift */; };
+		F6BC091727A5F0ED002FB1E6 /* CustomStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BC091627A5F0ED002FB1E6 /* CustomStepper.swift */; };
+		F6BC091927A5F21F002FB1E6 /* AddRoundUpdated.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BC091827A5F21F002FB1E6 /* AddRoundUpdated.swift */; };
+		F6D40BD5279CA1F8004BF82B /* RoundSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D40BD4279CA1F8004BF82B /* RoundSummary.swift */; };
 		F6F1C3A5278C3EA2000FCE4B /* RageApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F1C3A4278C3EA2000FCE4B /* RageApp.swift */; };
 		F6F1C3A7278C3EA2000FCE4B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F1C3A6278C3EA2000FCE4B /* ContentView.swift */; };
 		F6F1C3A9278C3EA3000FCE4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6F1C3A8278C3EA3000FCE4B /* Assets.xcassets */; };
 		F6F1C3AC278C3EA3000FCE4B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6F1C3AB278C3EA3000FCE4B /* Preview Assets.xcassets */; };
 		F6F1C3AE278C3EA3000FCE4B /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F1C3AD278C3EA3000FCE4B /* Persistence.swift */; };
 		F6F1C3B1278C3EA3000FCE4B /* Rage.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F6F1C3AF278C3EA3000FCE4B /* Rage.xcdatamodeld */; };
+		F6F1C3B8278C3F9C000FCE4B /* AddPlayers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F1C3B7278C3F9C000FCE4B /* AddPlayers.swift */; };
+		F6F1C3BA278C3FAD000FCE4B /* AddRound.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F1C3B9278C3FAD000FCE4B /* AddRound.swift */; };
+		F6F1C3BD278C40A6000FCE4B /* Players+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F1C3BB278C40A6000FCE4B /* Players+CoreDataClass.swift */; };
+		F6F1C3BE278C40A6000FCE4B /* Players+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F1C3BC278C40A6000FCE4B /* Players+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F6F1C3A1278C3EA2000FCE4B /* Rage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F607FE95278DEC210086208C /* SettingsSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsSheet.swift; sourceTree = "<group>"; };
+		F635C74E278C6D7C000EA457 /* GameSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSummary.swift; sourceTree = "<group>"; };
+		F66BE6E127A602A000224B70 /* TipJar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipJar.swift; sourceTree = "<group>"; };
+		F6BC091627A5F0ED002FB1E6 /* CustomStepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomStepper.swift; sourceTree = "<group>"; };
+		F6BC091827A5F21F002FB1E6 /* AddRoundUpdated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRoundUpdated.swift; sourceTree = "<group>"; };
+		F6D40BD4279CA1F8004BF82B /* RoundSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundSummary.swift; sourceTree = "<group>"; };
+		F6F1C3A1278C3EA2000FCE4B /* Trick Counting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Trick Counting.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6F1C3A4278C3EA2000FCE4B /* RageApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RageApp.swift; sourceTree = "<group>"; };
 		F6F1C3A6278C3EA2000FCE4B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F6F1C3A8278C3EA3000FCE4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F6F1C3AB278C3EA3000FCE4B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F6F1C3AD278C3EA3000FCE4B /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		F6F1C3B0278C3EA3000FCE4B /* Rage.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Rage.xcdatamodel; sourceTree = "<group>"; };
+		F6F1C3B7278C3F9C000FCE4B /* AddPlayers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPlayers.swift; sourceTree = "<group>"; };
+		F6F1C3B9278C3FAD000FCE4B /* AddRound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRound.swift; sourceTree = "<group>"; };
+		F6F1C3BB278C40A6000FCE4B /* Players+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Players+CoreDataClass.swift"; sourceTree = "<group>"; };
+		F6F1C3BC278C40A6000FCE4B /* Players+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Players+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +59,8 @@
 		F6F1C398278C3EA2000FCE4B = {
 			isa = PBXGroup;
 			children = (
+				F6F1C3BB278C40A6000FCE4B /* Players+CoreDataClass.swift */,
+				F6F1C3BC278C40A6000FCE4B /* Players+CoreDataProperties.swift */,
 				F6F1C3A3278C3EA2000FCE4B /* Rage */,
 				F6F1C3A2278C3EA2000FCE4B /* Products */,
 			);
@@ -47,7 +69,7 @@
 		F6F1C3A2278C3EA2000FCE4B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F6F1C3A1278C3EA2000FCE4B /* Rage.app */,
+				F6F1C3A1278C3EA2000FCE4B /* Trick Counting.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -57,6 +79,14 @@
 			children = (
 				F6F1C3A4278C3EA2000FCE4B /* RageApp.swift */,
 				F6F1C3A6278C3EA2000FCE4B /* ContentView.swift */,
+				F6F1C3B7278C3F9C000FCE4B /* AddPlayers.swift */,
+				F6F1C3B9278C3FAD000FCE4B /* AddRound.swift */,
+				F6BC091827A5F21F002FB1E6 /* AddRoundUpdated.swift */,
+				F635C74E278C6D7C000EA457 /* GameSummary.swift */,
+				F6D40BD4279CA1F8004BF82B /* RoundSummary.swift */,
+				F6BC091627A5F0ED002FB1E6 /* CustomStepper.swift */,
+				F607FE95278DEC210086208C /* SettingsSheet.swift */,
+				F66BE6E127A602A000224B70 /* TipJar.swift */,
 				F6F1C3A8278C3EA3000FCE4B /* Assets.xcassets */,
 				F6F1C3AD278C3EA3000FCE4B /* Persistence.swift */,
 				F6F1C3AF278C3EA3000FCE4B /* Rage.xcdatamodeld */,
@@ -90,7 +120,7 @@
 			);
 			name = Rage;
 			productName = Rage;
-			productReference = F6F1C3A1278C3EA2000FCE4B /* Rage.app */;
+			productReference = F6F1C3A1278C3EA2000FCE4B /* Trick Counting.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -144,8 +174,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				F6F1C3B1278C3EA3000FCE4B /* Rage.xcdatamodeld in Sources */,
+				F6F1C3BD278C40A6000FCE4B /* Players+CoreDataClass.swift in Sources */,
+				F635C74F278C6D7C000EA457 /* GameSummary.swift in Sources */,
+				F6D40BD5279CA1F8004BF82B /* RoundSummary.swift in Sources */,
 				F6F1C3AE278C3EA3000FCE4B /* Persistence.swift in Sources */,
+				F6F1C3B8278C3F9C000FCE4B /* AddPlayers.swift in Sources */,
+				F6F1C3BE278C40A6000FCE4B /* Players+CoreDataProperties.swift in Sources */,
+				F607FE96278DEC210086208C /* SettingsSheet.swift in Sources */,
+				F6BC091927A5F21F002FB1E6 /* AddRoundUpdated.swift in Sources */,
+				F66BE6E227A602A000224B70 /* TipJar.swift in Sources */,
+				F6BC091727A5F0ED002FB1E6 /* CustomStepper.swift in Sources */,
 				F6F1C3A7278C3EA2000FCE4B /* ContentView.swift in Sources */,
+				F6F1C3BA278C3FAD000FCE4B /* AddRound.swift in Sources */,
 				F6F1C3A5278C3EA2000FCE4B /* RageApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,15 +323,16 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = hkrieger.Rage;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				MARKETING_VERSION = 2.1;
+				PRODUCT_BUNDLE_IDENTIFIER = de.hkrieger.rage;
+				PRODUCT_NAME = "Trick Counting";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -312,15 +353,16 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = hkrieger.Rage;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				MARKETING_VERSION = 2.1;
+				PRODUCT_BUNDLE_IDENTIFIER = de.hkrieger.rage;
+				PRODUCT_NAME = "Trick Counting";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
